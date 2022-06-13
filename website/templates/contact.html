@@ -1,2 +1,44 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="container">
+    <h1>
+        Contact
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta suscipit molestiae, quasi optio possimus
+        praesentium
+        saepe iure deserunt, accusantium placeat quo! Officia corporis quae vel magni nisi exercitationem a repellat.
+    </p>
+
+
+    <div class="container">
+
+        <form class="text-center">
+            <div class="w-50 d-flex justify-content-center bg-light">
+                <div class="mb-3">
+                    <label class="form-label" for="emailAddress">Your Email</label>
+                    <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+                </div>
+
+                <!-- Message input -->
+                <div class="mb-3">
+                    <label class="form-label" for="message">Your Message</label>
+                    <textarea class="form-control" id="message" type="text" placeholder="Message"
+                        style="height: 10rem;"></textarea>
+                </div>
+
+
+                <!-- Form submissions error message -->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3"></div>
+                </div>
+
+                <!-- Form submit button -->
+                <div class="d-grid">
+                    <button class="btn btn-primary btn " type="submit">Submit</button>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+</div>
